@@ -1,7 +1,7 @@
 import numpy as np
-from tensorflow.keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
 from data_tools.load_data import load_data
-from net.vgg import net
+from net.resnet import net
 from setting import *
 
 train_dataset,test_dataset = load_data(dataset)
